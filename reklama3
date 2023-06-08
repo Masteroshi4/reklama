@@ -1,0 +1,21 @@
+# Importovanje biblioteka za prikazivanje reklame
+import time
+
+# Definisanje funkcije za prikazivanje scene
+def prikazi_scenu(scene):
+    print(scene)
+    time.sleep(2)  # Pauza od 2 sekunde između scena
+
+# Definisanje scenarija reklame
+scene1 = "Prikazuje se logo brenda na ekranu."
+scene2 = "Modeli nose nove kolekcije odeće."
+scene3 = "Prikazuje se tkanina visokog kvaliteta."
+scene4 = "Korisnici dele svoje iskustvo sa proizvodima."
+scene5 = "Prikazuje se poziv na akciju za posetu veb stranici."
+
+# Prikazivanje scena reklame
+prikazi_scenu(scene1)
+prikazi_scenu(scene2)
+prikazi_scenu(scene3)
+prikazi_scenu(scene4)
+prikazi_scenu(scene5)
